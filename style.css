@@ -1,0 +1,34 @@
+*{
+    background-image: url('bg.jpg');
+}
+
+kbd{
+    color: ivory;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 500px;
+}
+
+.main-div{
+    display: inline-flex;
+    padding-top: 200px ;
+    padding-left: 170px;
+}
+
+.key{
+    color: whitesmoke;
+    margin: 10px;
+    width: 70px;
+    height: 60px;
+    padding-bottom: 12px;
+    border: 2px solid black;
+    border-radius: 7%;
+    text-align: center;
+    transition: all 0.07s;
+}
+
+.playing{
+    transition: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
